@@ -61,38 +61,45 @@ Black Sabbath	Birmingham	West Midlands	UK	1968	Heavy Metal	(Paranoid,2.47,Heavy 
 
 # 📊 Results (Visual Output)
 
-## 1. Artists Table Output
-![Artists Table](images/artists_table.png)
+## 🧾 1. Artists Table Output
+![Artists Table](images/artists-table.png)
 
 Displays cleaned artist records with normalized location references.
 
 ---
 
-## 2. Songs Table Output
-![Songs Table](images/songs_table.png)
+## 🎵 2. Songs Table Output
+![Songs Table](images/songs-table.png)
 
 Shows extracted song-level data with proper atomic attributes.
 
 ---
 
-## 3. Albums Table Output
-![Albums Table](images/albums_table.png)
+## 💿 3. Albums Table Output
+![Albums Table](images/albums-table.png)
 
 Represents album data separated from artist entity for normalization compliance.
 
 ---
 
-## 4. Genre Mapping (ArtistGenres)
-![Artist Genres](images/artist_genres.png)
+## 🔗 4. Genre Mapping (ArtistGenres)
+![Artist Genres](images/artist-genres.png)
 
 Displays many-to-many relationships between artists and musical genres.
 
 ---
 
-## 5. Locations Table Output
-![Locations Table](images/locations_table.png)
+## 🌍 5. Locations Table Output
+![Locations Table](images/locations-table.png)
 
 Stores unique location entries to eliminate redundancy.
+
+---
+
+## 🎼 6. Genres Table Output
+![Genres Table](images/genres-table.png)
+
+Defines standardized genre dictionary used across the dataset to ensure consistency and remove repetition.
 
 ---
 
@@ -100,9 +107,7 @@ Stores unique location entries to eliminate redundancy.
 
 This project demonstrates how a denormalized dataset can be transformed into a **fully normalized 4NF relational model**, improving:
 
-- Data consistency
-- Reduced redundancy
-- Query efficiency
-- Structural integrity
-
----
+- 🧼 Data consistency
+- 📉 Reduced redundancy
+- ⚡ Query efficiency
+- 🏗️ Structural integrity
